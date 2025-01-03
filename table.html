@@ -1,12 +1,13 @@
 <!Doctype html>
 <html>
 <head>
-<body>
 <style>
 table th,tr,td{
-border:1px solid black
+border:1px solid black;
+border-collapse:collapse;
 }
 </style>
+</head>
 <h1>HTML Tables Demonstration</h1>
 <h3>Basic Table</h3>
 <table>
@@ -26,6 +27,26 @@ border:1px solid black
 <td>row2,cell 3</td>
 </tr>
 </table>
-</body>
-</head>
+<h1>Table with Rowspan and colspan</h1>
+<table>
+<tr>
+<th>header1</th>
+<th>header 2</th>
+<th>header 3</th>
+</tr>
+<tr>
+<td rowspan="2">row1 and2,cell 1</td>
+<td> row 1,cell 2</td>
+<td> row1,cell 3</td>
+</tr>
+<tr>
+<td colspan="2"> row 2,merged cells</td>
+<tr>
+<td> row 3,cell 1</td>
+<td>row 3,cell 2</td>
+<td>row 3,cell 3</td>
+</tr>
+<tr>
+</tr>
+</table>
 </html>
