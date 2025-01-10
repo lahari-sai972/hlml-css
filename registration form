@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<style>
+table,th,tr{
+border:1px solid black;
+border-collapse:collapse;
+padding:10px
+}
+th{
+	background-color:#808080;
+}
+td{
+	background-color:#c0c0c0;
+    }
+</style>
+</head>
+<body>
+<h1 style= "text-align:center">Registration Form</h1>
+<h3 style="text-align:center">Fill your Details</h3>
+<table align="center">
+<tr>
+<th>full name:</th>
+<td>
+<form>
+<input type="text" placeholder="enter full name">
+</form>
+</td>
+</tr>
+<tr>
+<th>password:</th>
+<td>
+<form>
+<input type="password" placeholder="enter your password">
+</form>
+</td>
+</tr>
+<tr>
+<th>Age:</th>
+<td>
+<form>
+<input type="number">
+</form>
+</td>
+</tr>
+<tr>
+<th>date of birth:</th>
+<td>
+<form>
+<input type="number" placeholder="dd-mm-yyyy">
+</form>
+</td>
+</tr>
+<tr>
+<th>Gender:</th>
+<td>
+<form>
+<input type="radio">
+<label for="male">male</label>
+<input type="radio">
+<label for="female">female</label>
+<input type="radio">
+<label for="other">other</label>
+<form>
+<tr>
+<th>Hobbies</th>
+<td>
+<form>
+<input type="checkbox">
+<label for="reading">Reading</label>
+<input type="checkbox">
+<label for="sports">Sports</label>
+<input type="checkbox">
+<label for="travelling">travelling</label>
+</form>
+</td>
+</tr>
+<tr>
+<th>Country:</th>
+<td>
+<form>
+<input type="text">
+</form>
+</td>
+</tr>
+<tr>
+<th>About yourself:</th>
+<td>
+<form>
+<input type="text" placeholder="write about yourself..">
+</form>
+</td>
+</tr>
+</table>
+<tr>
+<td>
+<form align="center">
+<input type="submit">
+</form>
+</tr>
+</td>
+<tr>
+<td>
+<form align="center">
+<input type="reset">
+</form>
+</td>
+</tr>
+</body>
+</html>
+
+
