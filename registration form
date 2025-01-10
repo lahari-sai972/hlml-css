@@ -92,20 +92,12 @@ td{
 </form>
 </td>
 </tr>
-</table>
+</table><br>
 <tr>
-<td>
 <form align="center">
 <input type="submit">
-</form>
-</tr>
-</td>
-<tr>
-<td>
-<form align="center">
 <input type="reset">
 </form>
-</td>
 </tr>
 </body>
 </html>
