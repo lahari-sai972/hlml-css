@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .font-size{
+            font-size: 20px;
+        }
+        .font-weight{
+            font-weight: bold;
+        }
+        .font-style{
+            font-style: italic;
+        }
+        .text-decoration{
+            text-decoration: underline;
+        }
+        .text-transformation{
+            text-transform: uppercase;
+        }
+        .text-align{
+            text-align: center;
+            background-color:gainsboro;
+            padding:10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Font and Text Properties Demonstration</h1>
+    <p class="font-size">This text demonstrates <strong>font-size</strong></p>
+    <p class="font-weight"><strong>This text demonstrates font-weight</strong></p>
+    <p class="font-style">THis text demonstrates <strong>font-style</strong></p>
+    <p class="text-decoration">this text demonstrates <strong>text-decoration</strong></p>
+    <p class="text-transformation">This text demonstrates <strong>text text-transform</strong></p>
+    <p class="text-align">This text demonstrates<strong>text-Alignment</strong></p>
+</body>
+</html>
