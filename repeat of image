@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIDdZqaJeLNbxyOCX5lj7Ch06FDouuinimKg&s, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("/home/vitcse/Desktop/images.jpeg");
+            background-repeat: repeat-x;
+            text-align: center;
+            height:50vh;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Background image demo</h2>
+  <p>this page demonstrates a background image fixed half way down ,repeat horizontally and remaing in place during scrolling</p>
+</body>
+</html>
