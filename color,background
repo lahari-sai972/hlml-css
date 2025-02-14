@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .red{
+        background-color: red;
+        height: 30px;
+        width:auto;
+        color:white;
+    }
+   .blue{
+    background-color:#1e90ff;
+    height:30px;
+    width:auto;
+    color:white;
+   }
+   .green{
+    background-color: rgb(34,139,34);
+    height:30px;widthwidth
+    width:auto;
+    color:white;
+   }
+   .pink{
+    background-color: rgba(255,99,71,0.7);
+    height:30px;
+    width: auto;
+   }
+   .darkblue{
+    background-color: hsl(240,100%,50%);
+    height:30px;
+    width:auto;
+    color:white;
+   }
+   .lightgreen{
+    background-color: hsla(120,60%,70%,0.6);
+    height: 30px;
+    width:auto;
+   }
+</style>
+</head>
+<body>
+    <h1>Css Color References</h1>
+    <div class="red">
+        <h3>Color Name:Red</h3>
+    </div>
+    <div class="blue">
+        <h3>HEX Value:#1E90FF</h3>
+    </div>
+    <div class="green">
+        <h3>RGB Value:rgb(34,139,34)</h3>
+    </div>
+    <div class="pink">
+        <h3>RGBA Value:rgba(255,99,71,0.7)</h3>
+    </div>
+    <div class="darkblue">
+        <h3>HSL Value:hsl(240,100%,50%)</h3>
+    </div>
+    <div class="lightgreen">
+        <h3>HLSA Value:hlsa(120,60%,70%,0.6)</h3>
+    </div>
+</body>
+</html>
