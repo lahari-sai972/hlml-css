@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .box{
+    width:700px;
+    border: 5px solid blue;
+    background-color:lightgray;
+    align:center;
+    margin-left: 400px;
+}
+.box2{
+    padding:5px;
+    width:600px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+.margin{
+    margin:20px;
+}
+.border{
+    margin: 20px;
+}
+.padding{
+    margin:20px;
+}
+.css{
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+   <h1>Css Box Model Demonstration</h1>  
+   <div class="box">
+    <h3 class="margin">Margin</h3>
+    <h3 class="border">Border</h3>
+    <div class="box2">
+    <h3>This is the content inside the box!</h3>
+   </div>
+   <h3 class="padding">padding</h3>
+   </div>
+   <p>This example demonstrates the CSS box model:</p>
+   <div class="css">
+    <li>
+        <b>Content:</b>
+        The White area in the center where the text is displayed
+    </li>
+    <li>
+        <b>Padding:</b>
+        The space between the content and the border(light gray)
+    </li>
+    <li>
+        <b>Border</b>
+        The solid blue line surrounding the box
+    </li>
+    <li>
+        <b>Margin:</b>
+        The space outside the bporder(moves the box away from other elements)
+    </li>
+   </div>
+
+</body>
+</html>
